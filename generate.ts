@@ -20,13 +20,13 @@ function parseLists(text: string) {
 const lists = {
   all: parseBookmarks(
     await (await fetch(
-      'https://raw.githubusercontent.com/fmhy/bookmarks/refs/heads/main/fmhy_in_bookmarks.html',
+      'https://raw.githubusercontent.com/Hichamtach/bookmarks/refs/heads/main/free-media-hub-bookmarks.html',
     )).text(),
   ),
 
   starred: parseBookmarks(
     await (await fetch(
-      'https://raw.githubusercontent.com/fmhy/bookmarks/refs/heads/main/fmhy_in_bookmarks_starred_only.html',
+      'https://raw.githubusercontent.com/Hichamtach/bookmarks/refs/heads/main/free-media-hub-bookmarks_starred_only.html',
     )).text(),
   ),
 
@@ -47,8 +47,8 @@ const header = `! name: FMHY Goggles
 ! description: Rerank results to boost sites on FMHY and remove potentially unsafe sites.
 ! public: true
 ! author: FMHY
-! homepage https://github.com/fmhy/bookmarks
-! issues https://github.com/fmhy/bookmarks/issues`
+! homepage https://github.com/Hichamtach/bookmarks
+! issues https://github.com/Hichamtach/bookmarks/issues`
 
 const goggle = [
   ...new Set(`${header}
@@ -72,6 +72,6 @@ ${
   }`.split('\n')),
 ].join('\n')
 
-Deno.writeTextFileSync('fmhy.goggle', goggle)
+Deno.writeTextFileSync('free-media-hub.goggle', goggle)
 
 console.log('Sucessfully generated goggle file.')

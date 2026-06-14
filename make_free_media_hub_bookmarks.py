@@ -183,9 +183,9 @@ async def main_async() -> None:
     full_content = "\n".join(all_content)
 
     # Generate both bookmark files
-    create_html_bookmarks(full_content, "fmhy_in_bookmarks.html")
+    create_html_bookmarks(full_content, "free-media-hub-bookmarks.html")
     create_html_bookmarks(
-        full_content, "fmhy_in_bookmarks_starred_only.html", starred_only=True
+        full_content, "free-media-hub-bookmarks_starred_only.html", starred_only=True
     )
 
     logger.info("Bookmark generation complete!")

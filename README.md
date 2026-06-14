@@ -1,17 +1,17 @@
-This repository is programmed to automatically generate browser bookmarks and Brave Search Engine "Goggle" for FMHY.
+This repository is programmed to automatically generate browser bookmarks and Brave Search Engine "Goggle" for Free Media Hub.
 
 ## Goggle
 
-Use https://search.brave.com/goggles?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Ffmhy%2Fbookmarks%2Frefs%2Fheads%2Fmain%2Ffmhy.goggle
+Use https://search.brave.com/goggles?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2FFree Media Hub%2Fbookmarks%2Frefs%2Fheads%2Fmain%2FFree Media Hub.goggle
 
-The goggles are automatically updated weekly through Github Actions with the new changes from FMHY.
+The goggles are automatically updated weekly through Github Actions with the new changes from the Free Media Hub project.
 
 ## Bookmarks
 
 Bookmarks are generated as HTML files which can be imported into any web browser.
 ![](https://i.imgur.com/N2Wfngc.png)
 
-The HTML files are automatically updated weekly with the new changes from FMHY.
+The HTML files are automatically updated weekly with the new changes from the Free Media Hub project.
 
 ### Why?
 
